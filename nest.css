@@ -1,0 +1,360 @@
+div{
+    background-color: white;
+    margin-top: 25px;
+ }
+img{
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 400px;
+}
+#main-nav{
+    /* display: flex; */
+}
+#navbarScroll{
+    margin-left: 30;
+    align-items: center;
+    padding-bottom: 30px;
+}
+#navbarScroll,li{
+    padding-left: 30px;
+
+}
+ #contact-btn {
+    display: inline-block;
+    background-color: #0d6efd; /* Bootstrap blue */
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* curved borders */
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    
+  }
+
+  #contact-btn:hover {
+    background-color: #0b5ed7;
+    color: #ffffff;
+  }
+  #Contact{
+    padding-left: 250px;
+
+  }
+  .carousel-inner{
+    height: 30rem;
+    width: 75%;
+    margin: 0;
+  }
+  .industry-card {
+  padding: 30px 25px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.industry-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.industry-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.industry-description {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.solutions-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.solution-badge {
+  background: rgba(255, 255, 255, 0.25);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.industry-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* Carousel Styles */
+.slide-main {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.carousel {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carousel-indicators button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid white;
+}
+
+.carousel-indicators button.active {
+  background-color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+/* About Page Intro */
+.about-intro {
+  padding: 40px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.about-container {
+  padding: 40px 20px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.about-card {
+  padding: 30px 25px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.about-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about-description {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.about-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+/* About Page Heading */
+.about-heading {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about-heading h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-heading p {
+  font-size: 1.3rem;
+  color: #666;
+}
+
+/* Services Section */
+.services-section {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  margin-bottom: 40px;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+.service-card {
+  padding: 30px 25px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+
+.service-text {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.about-stats {
+  padding: 60px 20px;
+  background: #f8f9fa;
+  margin-bottom: 40px;
+}
+
+.stat-box {
+  padding: 40px 20px;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Services cards alignment */
+.services-cards .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.services-cards .card-img-top {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.service-card .card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card .service-text {
+  margin-top: 0.5rem;
+  color: rgba(255,255,255,0.95);
+  flex: 0 0 auto;
+}
+
+/* keep footer at bottom */
+.service-card .card-footer {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+/* ensure cards stretch in the row */
+.row.align-items-stretch {
+  align-items: stretch;
+}
+
+/* Card alignment */
+.card-group .card .card-title {
+  text-align: center;
+}
+
+.card-group .card .card-text {
+  text-align: center;
+}
+
